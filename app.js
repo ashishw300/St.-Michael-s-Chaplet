@@ -166,14 +166,14 @@ class ChapletApp {
                     ${this.renderChaplet()}
                 </div>
 
-                <!-- Mobile Prayer Display with fixed spacing -->
+                <!-- Mobile Prayer Display with tighter spacing -->
                 <div class="flex-1 flex flex-col px-4 pb-4 min-h-0">
-                    <div class="flex-1 flex items-center justify-center min-h-[140px] sm:min-h-[160px]">
+                    <div class="mb-3">
                         ${this.renderPrayerCard()}
                     </div>
                     
                     <!-- Mobile Controls -->
-                    <div class="flex-shrink-0 pt-4">
+                    <div class="flex-shrink-0">
                         ${this.renderControls()}
                     </div>
                 </div>
